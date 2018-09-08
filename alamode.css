@@ -1,34 +1,266 @@
-/* 2018 Copyright Nay Linn Oo */
-/* MIT LICENSE */
+ 2018 Copyright Nay Linn Oo 
+ MIT LICENSE 
 
-/* 
+ 
 Project À La Mode
 
+Version 0.1(Alpha)
 Created by Nay Linn Oo
 Created on September 2018
 Written under Elemental LLC
-*/
 
-/* Color */
-/* Monotone Colors */
 
-.color-white{
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+ Colors 
+
+ Monotone Colors 
+
+.colormode-white{
     color:white;
 }
 
-.color-black{
+.colormode-black{
     color:black;
 }
 
 /* Primary Colors */
 
-.color-red{
+.colormode-red{
     color:red;
 }
 
-.color-blue{
+.colormode-blue{
     color:blue;
 }
-.color-green{
+.colormode-green{
     color:green;
 }
+
+/* Secondary Colors */
+
+.colormode-magneta{
+    color:magenta;
+}
+
+.colormode-yellow{
+    color:yellow;
+}
+.colormode-cyan{
+    color:cyan;
+}
+
+/* Other Colors */
+
+
+
+ Gradient 
+
+ Alamode
+
+--------------------------------------------------------------------------------------------
+
+ Nature Pool
+
+Default
+
+.grad-naturepool{
+    background-image: linear-gradient(to top, #00f9a2, #00e5d8, #00caff, #00a9ff, #3881f4);
+}
+
+.grad-naturepool-top{
+    background-image: linear-gradient(to top, #00f9a2, #00e5d8, #00caff, #00a9ff, #3881f4);
+}
+
+.grad-naturepool-topright{
+    background-image: linear-gradient(to top right, #00f9a2, #00e5d8, #00caff, #00a9ff, #3881f4);
+}
+
+.grad-naturepool-right{
+    background-image: linear-gradient(to right, #00f9a2, #00e5d8, #00caff, #00a9ff, #3881f4);
+}
+
+.grad-naturepool-bottomright{
+    background-image: linear-gradient(to bottom right, #00f9a2, #00e5d8, #00caff, #00a9ff, #3881f4);
+}
+
+.grad-naturepool-bottom{
+    background-image: linear-gradient(to bottom, #00f9a2, #00e5d8, #00caff, #00a9ff, #3881f4);
+}
+
+.grad-naturepool-bottomleft{
+    background-image: linear-gradient(to bottom left, #00f9a2, #00e5d8, #00caff, #00a9ff, #3881f4);
+}
+
+.grad-naturepool-left{
+    background-image: linear-gradient(to left, #00f9a2, #00e5d8, #00caff, #00a9ff, #3881f4);
+}
+
+.grad-naturepool-bottomtop{
+    background-image: linear-gradient(to bottom top, #00f9a2, #00e5d8, #00caff, #00a9ff, #3881f4);
+}
+
+ Sunlight 
+
+.grad-naturepool-sunlight{
+    background-image: linear-gradient(to top, #00f9a2, #00e5d8, #00caff, #00a9ff, #3881f4);
+}
+
+.grad-naturepool-sunlight-top{
+    background-image: linear-gradient(to top, #00f9a2, #00e5d8, #00caff, #00a9ff, #3881f4);
+}
+
+.grad-naturepool-sunlight-topright{
+    background-image: linear-gradient(to top right, #00f9a2, #00e5d8, #00caff, #00a9ff, #3881f4);
+}
+
+.grad-naturepool-sunlight-right{
+    background-image: linear-gradient(to right, #00f9a2, #00e5d8, #00caff, #00a9ff, #3881f4);
+}
+
+.grad-naturepool-sunlight-bottomright{
+    background-image: linear-gradient(to bottom right, #00f9a2, #00e5d8, #00caff, #00a9ff, #3881f4);
+}
+
+.grad-naturepool-sunlight-bottom{
+    background-image: linear-gradient(to bottom, #00f9a2, #00e5d8, #00caff, #00a9ff, #3881f4);
+}
+
+.grad-naturepool-sunlight-bottomleft{
+    background-image: linear-gradient(to bottom left, #00f9a2, #00e5d8, #00caff, #00a9ff, #3881f4);
+}
+
+.grad-naturepool-sunlight-left{
+    background-image: linear-gradient(to left, #00f9a2, #00e5d8, #00caff, #00a9ff, #3881f4);
+}
+
+.grad-naturepool-sunlight-bottomtop{
+    background-image: linear-gradient(to bottom top, #00f9a2, #00e5d8, #00caff, #00a9ff, #3881f4);
+}
+
+ Twilight
+
+.grad-naturepool-twilight{
+    background-image: linear-gradient(to top, #00a36b, #00918d, #007ca8, #0061af, #044099);
+}
+
+.grad-naturepool-twilight-top{
+    background-image: linear-gradient(to top, #00a36b, #00918d, #007ca8, #0061af, #044099);
+}
+
+.grad-naturepool-twilight-topright{
+    background-image: linear-gradient(to top right, #00a36b, #00918d, #007ca8, #0061af, #044099);
+}
+
+.grad-naturepool-twilight-right{
+    background-image: linear-gradient(to right, #00a36b, #00918d, #007ca8, #0061af, #044099);
+}
+
+.grad-naturepool-twilight-bottomright{
+    background-image: linear-gradient(to bottom right, #00a36b, #00918d, #007ca8, #0061af, #044099);
+}
+
+.grad-naturepool-twilight-bottom{
+    background-image: linear-gradient(to bottom, #00a36b, #00918d, #007ca8, #0061af, #044099);
+}
+
+.grad-naturepool-twilight-bottomleft{
+    background-image: linear-gradient(to bottom left, #00a36b, #00918d, #007ca8, #0061af, #044099);
+}
+
+.grad-naturepool-twilight-left{
+    background-image: linear-gradient(to left, #00a36b, #00918d, #007ca8, #0061af, #044099);
+}
+
+.grad-naturepool-twilight-bottomtop{
+    background-image: linear-gradient(to bottom top, #00a36b, #00918d, #007ca8, #0061af, #044099);
+}
+
+ Midnight
+
+.grad-naturepool-midnight{
+    background-image: linear-gradient(to top, #006c47, #00605d, #005170, #004075, #002966);
+}
+
+
+.grad-naturepool-midnight-top{
+    background-image: linear-gradient(to top, #006c47, #00605d, #005170, #004075, #002966);
+}
+
+.grad-naturepool-midnight-topright{
+    background-image: linear-gradient(to top right, #006c47, #00605d, #005170, #004075, #002966);
+}
+
+.grad-naturepool-midnight-right{
+    background-image: linear-gradient(to right, #006c47, #00605d, #005170, #004075, #002966);
+}
+
+.grad-naturepool-midnight-bottomright{
+    background-image: linear-gradient(to bottom right, #006c47, #00605d, #005170, #004075, #002966);
+}
+
+.grad-naturepool-midnight-bottom{
+    background-image: linear-gradient(to bottom, #006c47, #00605d, #005170, #004075, #002966);
+}
+
+.grad-naturepool-midnight-bottomleft{
+    background-image: linear-gradient(to bottom left, #006c47, #00605d, #005170, #004075, #002966);
+}
+
+.grad-naturepool-midnight-left{
+    background-image: linear-gradient(to left, #006c47, #00605d, #005170, #004075, #002966);
+}
+
+.grad-naturepool-midnight-bottomtop{
+    background-image: linear-gradient(to bottom top, #006c47, #00605d, #005170, #004075, #002966);
+}
+
+ The abyss
+
+.grad-naturepool-abyss-top{
+    background-image: linear-gradient(to top, #005337, #004846, #003b4f, #002c4f, #001b42);
+}
+
+.grad-naturepool-abyss-topright{
+    background-image: linear-gradient(to top right, #005337, #004846, #003b4f, #002c4f, #001b42);
+}
+
+.grad-naturepool-abyss-right{
+    background-image: linear-gradient(to right, #005337, #004846, #003b4f, #002c4f, #001b42);
+}
+
+.grad-naturepool-abyss-bottomright{
+    background-image: linear-gradient(to bottom right, #005337, #004846, #003b4f, #002c4f, #001b42);
+}
+
+.grad-naturepool-abyss-bottom{
+    background-image: linear-gradient(to bottom, #005337, #004846, #003b4f, #002c4f, #001b42);
+}
+
+.grad-naturepool-abyss-bottomleft{
+    background-image: linear-gradient(to bottom left, #005337, #004846, #003b4f, #002c4f, #001b42);
+}
+
+.grad-naturepool-abyss-left{
+    background-image: linear-gradient(to left, #005337, #004846, #003b4f, #002c4f, #001b42);
+}
+
+.grad-naturepool-abyss-bottomtop{
+    background-image: linear-gradient(to bottom top, #005337, #004846, #003b4f, #002c4f, #001b42);
+}
+
+
+
+
+
+
+
+
