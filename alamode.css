@@ -1,16 +1,17 @@
- 2018 Copyright Nay Linn Oo 
- MIT LICENSE 
+/* 2018 Copyright Nay Linn Oo */
+/* MIT LICENSE */
 
  
+/* 
 Project À La Mode
 
-Version 0.1(Alpha)
-Created by Nay Linn Oo
-Created on September 2018
-Written under Elemental LLC
+ Version 0.1(Alpha)
+ Created by Nay Linn Oo
+ Created on September 2018
+ Written under Elemental LLC
+*/
 
-
-html {
+ html {
     height: 100%;
 }
 body {
@@ -20,9 +21,11 @@ body {
     background-attachment: fixed;
 }
 
- Colors 
+Colors 
 
- Monotone Colors 
+/* Ordinary */
+
+/* Monotone */
 
 .colormode-white{
     color:white;
@@ -58,61 +61,104 @@ body {
     color:cyan;
 }
 
-/* Other Colors */
+/* Others */
 
+/*--------------------------------------------------------------------------------------------*/
 
+/* Background */
 
- Gradient 
+/* Monotone */
 
- Alamode
-
---------------------------------------------------------------------------------------------
-
- Nature Pool
-
-Default
-
-.grad-naturepool{
-    background-image: linear-gradient(to top, #00f9a2, #00e5d8, #00caff, #00a9ff, #3881f4);
+.bgmode-white{
+    background-color:white;
 }
 
-.grad-naturepool-top{
-    background-image: linear-gradient(to top, #00f9a2, #00e5d8, #00caff, #00a9ff, #3881f4);
+.bgmode-black{
+    background-color:black;
 }
 
-.grad-naturepool-topright{
-    background-image: linear-gradient(to top right, #00f9a2, #00e5d8, #00caff, #00a9ff, #3881f4);
+/* Primary */
+
+.bgmode-red{
+    background-color:red;
 }
 
-.grad-naturepool-right{
-    background-image: linear-gradient(to right, #00f9a2, #00e5d8, #00caff, #00a9ff, #3881f4);
+.bgmode-blue{
+    background-color:blue;
+}
+.bgmode-green{
+    background-color:green;
 }
 
-.grad-naturepool-bottomright{
-    background-image: linear-gradient(to bottom right, #00f9a2, #00e5d8, #00caff, #00a9ff, #3881f4);
+/* Secondary */
+
+.bgmode-magneta{
+    background-color:magenta;
 }
 
-.grad-naturepool-bottom{
-    background-image: linear-gradient(to bottom, #00f9a2, #00e5d8, #00caff, #00a9ff, #3881f4);
+.bgmode-yellow{
+    background-color:yellow;
+}
+.bgmode-cyan{
+    background-color:cyan;
 }
 
-.grad-naturepool-bottomleft{
-    background-image: linear-gradient(to bottom left, #00f9a2, #00e5d8, #00caff, #00a9ff, #3881f4);
+/* Others */
+
+/*--------------------------------------------------------------------------------------------*/
+
+/* Text */
+
+/* Monotone */
+
+.textmode-white{
+    color:white;
 }
 
-.grad-naturepool-left{
-    background-image: linear-gradient(to left, #00f9a2, #00e5d8, #00caff, #00a9ff, #3881f4);
+.textmode-black{
+    color:black;
 }
 
-.grad-naturepool-bottomtop{
-    background-image: linear-gradient(to bottom top, #00f9a2, #00e5d8, #00caff, #00a9ff, #3881f4);
+/* Primary Colors */
+
+.textmode-red{
+    color:red;
 }
 
- Sunlight 
-
-.grad-naturepool-sunlight{
-    background-image: linear-gradient(to top, #00f9a2, #00e5d8, #00caff, #00a9ff, #3881f4);
+.textmode-blue{
+    color:blue;
 }
+.textmode-green{
+    color:green;
+}
+
+/* Secondary Colors */
+
+.textmode-magneta{
+    color:magenta;
+}
+
+.textmode-yellow{
+    color:yellow;
+}
+.textmode-cyan{
+    color:cyan;
+}
+
+/* Others */
+
+/*--------------------------------------------------------------------------------------------*/
+
+
+/* Gradient */
+
+/* Alamode */
+
+/*--------------------------------------------------------------------------------------------*/
+
+/*Nature Pool*/
+
+/* Sunlight */ 
 
 .grad-naturepool-sunlight-top{
     background-image: linear-gradient(to top, #00f9a2, #00e5d8, #00caff, #00a9ff, #3881f4);
@@ -146,11 +192,7 @@ Default
     background-image: linear-gradient(to bottom top, #00f9a2, #00e5d8, #00caff, #00a9ff, #3881f4);
 }
 
- Twilight
-
-.grad-naturepool-twilight{
-    background-image: linear-gradient(to top, #00a36b, #00918d, #007ca8, #0061af, #044099);
-}
+/* Twilight */
 
 .grad-naturepool-twilight-top{
     background-image: linear-gradient(to top, #00a36b, #00918d, #007ca8, #0061af, #044099);
@@ -184,12 +226,7 @@ Default
     background-image: linear-gradient(to bottom top, #00a36b, #00918d, #007ca8, #0061af, #044099);
 }
 
- Midnight
-
-.grad-naturepool-midnight{
-    background-image: linear-gradient(to top, #006c47, #00605d, #005170, #004075, #002966);
-}
-
+/* Midnight */
 
 .grad-naturepool-midnight-top{
     background-image: linear-gradient(to top, #006c47, #00605d, #005170, #004075, #002966);
@@ -223,11 +260,7 @@ Default
     background-image: linear-gradient(to bottom top, #006c47, #00605d, #005170, #004075, #002966);
 }
 
- The abyss
-
-.grad-naturepool-abyss-top{
-    background-image: linear-gradient(to top, #005337, #004846, #003b4f, #002c4f, #001b42);
-}
+/* Abyss */
 
 .grad-naturepool-abyss-topright{
     background-image: linear-gradient(to top right, #005337, #004846, #003b4f, #002c4f, #001b42);
@@ -257,7 +290,155 @@ Default
     background-image: linear-gradient(to bottom top, #005337, #004846, #003b4f, #002c4f, #001b42);
 }
 
+/*--------------------------------------------------------------------------------------------*/
+/* Black Pink */
 
+/* Sunlight */ 
+
+.grad-blackpink-sunlight-top{
+    background-image: linear-gradient(to top, #000000, #3e1625, #7a1c48, #bb1a71, #ff049f);
+}
+
+.grad-blackpink-sunlight-topright{
+    background-image: linear-gradient(to top right, #000000, #3e1625, #7a1c48, #bb1a71, #ff049f);
+}
+
+.grad-blackpink-sunlight-right{
+    background-image: linear-gradient(to right, #000000, #3e1625, #7a1c48, #bb1a71, #ff049f);
+}
+
+.grad-blackpink-sunlight-bottomright{
+    background-image: linear-gradient(to bottom right, #000000, #3e1625, #7a1c48, #bb1a71, #ff049f);
+}
+
+.grad-blackpink-sunlight-bottom{
+    background-image: linear-gradient(to bottom, #000000, #3e1625, #7a1c48, #bb1a71, #ff049f);
+}
+
+.grad-blackpink-sunlight-bottomleft{
+    background-image: linear-gradient(to bottom left, #000000, #3e1625, #7a1c48, #bb1a71, #ff049f);
+}
+
+.grad-blackpink-sunlight-left{
+    background-image: linear-gradient(to left, #000000, #3e1625, #7a1c48, #bb1a71, #ff049f);
+}
+
+.grad-blackpink-sunlight-bottomtop{
+    background-image: linear-gradient(to bottom top, #000000, #3e1625, #7a1c48, #bb1a71, #ff049f);
+}
+
+/* Twilight */
+
+.grad-blackpink-twilight-top{
+    background-image: linear-gradient(to top, #000000, #381421, #6c193f, #a31662, #de0089);
+}
+
+.grad-blackpink-twilight-topright{
+    background-image: linear-gradient(to top right, #000000, #381421, #6c193f, #a31662, #de0089);
+}
+
+.grad-blackpink-twilight-right{
+    background-image: linear-gradient(to right, #000000, #381421, #6c193f, #a31662, #de0089);
+}
+
+.grad-blackpink-twilight-bottomright{
+    background-image: linear-gradient(to bottom right, #000000, #381421, #6c193f, #a31662, #de0089);
+}
+
+.grad-blackpink-twilight-bottom{
+    background-image: linear-gradient(to bottom, #000000, #381421, #6c193f, #a31662, #de0089);
+}
+
+.grad-blackpink-twilight-bottomleft{
+    background-image: linear-gradient(to bottom left, #000000, #381421, #6c193f, #a31662, #de0089);
+}
+
+.grad-blackpink-twilight-left{
+    background-image: linear-gradient(to left, #000000, #381421, #6c193f, #a31662, #de0089);
+}
+
+.grad-blackpink-twilight-bottomtop{
+    background-image: linear-gradient(to bottom top, #000000, #381421, #6c193f, #a31662, #de0089);
+}
+
+/* Midnight */
+
+.grad-blackpink-midnight{
+    background-image: linear-gradient(to top, #000000, #30111d, #5a1535, #871352, #b60472);
+}
+
+
+.grad-blackpink-midnight-top{
+    background-image: linear-gradient(to top, #000000, #30111d, #5a1535, #871352, #b60472);
+}
+
+.grad-blackpink-midnight-topright{
+    background-image: linear-gradient(to top right, #000000, #30111d, #5a1535, #871352, #b60472);
+}
+
+.grad-blackpink-midnight-right{
+    background-image: linear-gradient(to right, #000000, #30111d, #5a1535, #871352, #b60472);
+}
+
+.grad-blackpink-midnight-bottomright{
+    background-image: linear-gradient(to bottom right, #000000, #30111d, #5a1535, #871352, #b60472);
+}
+
+.grad-blackpink-midnight-bottom{
+    background-image: linear-gradient(to bottom, #000000, #30111d, #5a1535, #871352, #b60472);
+}
+
+.grad-blackpink-midnight-bottomleft{
+    background-image: linear-gradient(to bottom left, #000000, #30111d, #5a1535, #871352, #b60472);
+}
+
+.grad-blackpink-midnight-left{
+    background-image: linear-gradient(to left, #000000, #30111d, #5a1535, #871352, #b60472);
+}
+
+.grad-blackpink-midnight-bottomtop{
+    background-image: linear-gradient(to bottom top, #000000, #30111d, #5a1535, #871352, #b60472);
+}
+
+/* Abyss */
+
+.grad-blackpink-abyss-top{
+    background-image: linear-gradient(to top, #000000, #260e17, #441028, #640d3c, #850052);
+}
+
+.grad-blackpink-abyss-topright{
+    background-image: linear-gradient(to top right, #000000, #260e17, #441028, #640d3c, #850052);
+}
+
+.grad-blackpink-abyss-right{
+    background-image: linear-gradient(to right, #000000, #260e17, #441028, #640d3c, #850052);
+}
+
+.grad-blackpink-abyss-bottomright{
+    background-image: linear-gradient(to bottom right, #000000, #260e17, #441028, #640d3c, #850052);
+}
+
+.grad-blackpink-abyss-bottom{
+    background-image: linear-gradient(to bottom, #000000, #260e17, #441028, #640d3c, #850052);
+}
+
+.grad-blackpink-abyss-bottomleft{
+    background-image: linear-gradient(to bottom left, #000000, #260e17, #441028, #640d3c, #850052);
+}
+
+.grad-blackpink-abyss-left{
+    background-image: linear-gradient(to left, #000000, #260e17, #441028, #640d3c, #850052);
+}
+
+.grad-blackpink-abyss-bottomtop{
+    background-image: linear-gradient(to bottom top, #000000, #260e17, #441028, #640d3c, #850052);
+}
+
+/*--------------------------------------------------------------------------------------------*/
+
+/* Yello Claw */
+
+/* Sunlight */ 
 
 
 
